@@ -68,7 +68,7 @@ function calculateTip() {
 //     let total = (billValue + tipAmount) / peopleValue;
 //     tipPerPerson.innerHTML = "₼" + tipAmount.toFixed(2);
 //     totalPerPerson.innerHTML = "₼" + total.toFixed(2);
-    let tipAmount = (billValue * tipValue) / peopleValue * 100;
+    let tipAmount = (billValue * tipValue) / (peopleValue * 100);
     let total = (billValue + tipAmount) / peopleValue;
     tipPerPerson.innerHTML = "₼" + tipAmount.toFixed(2);
     totalPerPerson.innerHTML = "₼" + total.toFixed(2);
